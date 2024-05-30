@@ -1,0 +1,150 @@
+#start2{
+    margin-top: 50%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+}
+#temp{
+    display: grid;
+    grid-template-columns: 70% 30%;
+} 
+#balance{
+    padding-left: 10%;
+}
+#f1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#common{
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+body{
+    margin: 0px;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    background-color:#112A46;
+    color: #ACC8E5;
+    gap: 10px;
+    word-wrap: break-word;
+    height: 98vh;
+    align-items: start;
+}
+#main
+{
+    height: 100vh;
+    background-color: black;
+    color: rgb(245, 245, 245);
+    font-size: 2rem;
+}
+#main a{
+    text-decoration: none;
+    color: #ACC8E5;
+}
+#start{
+    width: 18rem;
+    float: left;
+}
+#print{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+h1{
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+#noe{
+    display: flex;
+    width: 5rem;
+    height: 2rem;
+    justify-items: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+#e{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+#us{
+    font-size: 2rem;
+}
+@keyframes blink {
+    0%{
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: orange;
+    }
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+#start
+{
+    width: 3rem;
+}
+#dis p{
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    color:#0E2239;
+    align-items: flex-end;
+    word-wrap: break-word;
+}
+#s1
+{
+    font-size: 1.5rem;
+}
+#dis
+{
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    justify-content: space-between 0.3rem;
+}
+#dis div p{
+    border: 0.3rem black solid;
+    padding-top: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: gold;
+}
+#dis div i{
+    font-size: 1.5rem;
+    width: 1rem;
+}
+#start2{
+    width: 3rem;
+    height: 1.5rem;
+}
+#noe:hover,#e:hover{
+    color: black;
+}
+/* #dis div .rcla{
+    border: 0.3rem black solid;
+    padding-top: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+}
+#dis div .comcla{
+    border: 0.3rem black solid;
+    padding-top: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: pink;
+} */
